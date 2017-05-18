@@ -17,15 +17,24 @@ In the same vein of popular "flash updates" such as Amazon Alexa's verbal flash 
 
 ## Brainstorming
 Utiizing GitHub's API, this tool will filter out the junk and you can kiss the cluttered GitHub homepage goodbye.
-* Note - all of these are within a date-range specified by the user
 
-__The tool regarding pull requests__:
+- A user can specify the date-range for a project that they want to catch up on.
+- Emojii responses to comments (good and bad) will determine "user engagement" for that comment and its importance/popularity
+- Volume of comments on a particular topic (pull request, issue, other thread) will determine "user engagement" and popularity of that particular topic
+- *After thought* May need to check for key words that indicate whether or not a user's comment solved the issue or if they were bringing up a new way to think about the issue to guide the userbase towards a solution
 
-- View active and/or "hot" pull requests - pull requests that are the most active and do not necessarily have to be mentioned in the roadmap - as they may contain an important solution or concept 
+### Pull Requests
 
-__The tool regarding thread posts__:
+- View active, pending pull requests and popular ones that were merged/pending merge.
+- The most active do not necessarily have to be mentioned in the roadmap - as they may contain an important solution or concept as an afterthought.
+- Check emojii responses/comment volume for popularity.
+- If pending, determine the roadblocks as to why it cannot merge.
+- If merged, highlight any issues or roadmap tasks that the pull request resolved.
+- Collaborator/creator involvement may signify this PR as note-worthy.
 
-- GitHub project thread posts in `Issues` that receive significant more attention (negativity).
+### Threads/Issues
+
+- Threads/issues that have high volume of comments
 - Thread posts that receive substantially more positive feedback in the `Issue` forum posts.
 - Thread posts created by the developers/maintainers of the project ESPECIALLY if their post recieve positive feedback.
 - Determine who receives more positive feedback across all threads and `promote` them due to the assumption that they are active contributors.
