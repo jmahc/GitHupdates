@@ -28,16 +28,16 @@ Utiizing GitHub's API, this tool will filter out the junk and you can kiss the c
 - Create a hierarchy of comments/interactions
   - High-volume of comments emphasize the topic is desired by many and users are actively engaging
     - Sudden bursts of comments within a isolated datetime-range indicate a potential issue or better solution
-    - A resolved issue/thread suddently receiving a burst of comments indicates a potential issue or better solution
+    - A resolved issue/thread suddenly receiving a burst of comments indicates a potential issue or better solution
   - Emojii responses (thumbs up, smiley faces, etc.) to comments can indicate positive or negative
     - A user receiving thumbs down may have asked an inappropriate question or provided an incorrect solution
     - A user receiving thumbs up and praise may have provided a solution to the original issue
-    - A thread that was resolved sees a resurgancy of new posts with positive/negative emojii responses
+    - A thread that was resolved sees a resurgence of new posts with positive/negative emojii responses
     - These determine user engagement for that particular issue and can aid in determining its importance/popularity
   - Key words in comments and their sibling comments can provide more information about the post
     - "Thanks, that worked", "FINALLY!" may indicate that the user they are responding to solved their problem
     - "Does not work still" may indicate that the provided solution is not all-encompassing and should be revisited
-- Utilize the hierarcy of comments/interactions to see how they pertain to the roadmap or defined project goals.
+- Utilize the hierarchy of comments/interactions to see how they pertain to the roadmap or defined project goals.
   - While the comments/interactions may be relevant long-term, it may be solely for an upcoming release
   - Provide highlights of the highly-engaged content for users to sift through the issue/thread
   - Take "important/popular" comments and their surrounding context to offer a summary of the issue and/or resolution
@@ -47,15 +47,15 @@ Utiizing GitHub's API, this tool will filter out the junk and you can kiss the c
     - Traveling to a different thread for a solution that already exists would be filtered
     - Solving the problem for the user (assuming it is new to the collaborator) would be prominent & not filtered
   - Determine who receives more positive feedback across all threads and weight them more due to the assumption that they are active contributors to the project on a consistent basis.
-- Pull Requests and how they relate to the roadmap, what is holding them back and the level of importancy
+- Pull Requests and how they relate to the roadmap, what is holding them back and the level of importance
   - Pull Request's "age" waiting to be merged
     - It does not follow the roadmap
     - It has a failing test or awaiting more details or there is a roadblock
     - Check the comment activity to determine its importance and who is commenting on it.
     - Collaborator comments may affect the necessity of a particular PR
 - Releasing the project
-  - Check for any updates to a __GitHub__ projet's "Roadmap" section,.
-  - View the posts pertaining to any roadmap options & specifically look for roadlblocks.
+  - Check for any updates to a __GitHub__ project's "Roadmap" section,.
+  - View the posts pertaining to any roadmap options & specifically look for roadblocks.
 - On new releases, determine a way to extract the most important bullet points from the release document/page and
 
 ## Down the road
