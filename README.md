@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jmahc/GitHupdates.svg?branch=master)](https://travis-ci.org/jmahc/GitHupdates)
+
 # GitHupdates
 The wild, wonderful world of open-source software is difficult to constantly stay in the know.  If there were more hours in the day, we could all work, maintain our relationships, contribute to open-source software, enjoy leisure and sleep a healthy amount each night.  That's all fine and dandy but it's not going to happen, my dude.
 
