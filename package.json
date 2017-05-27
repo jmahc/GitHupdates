@@ -1,8 +1,8 @@
 {
   "name": "githupdates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
-  "homepage": "http://jmahc.github.io/githupdates",
+  "homepage": "http://jmahc.github.io/",
   "dependencies": {
     "fetch": "^1.1.0",
     "react": "^15.5.4",
